@@ -1,0 +1,7 @@
+bin_PROGRAMS += _casmutils-factor_group
+
+_casmutils_factor_group_SOURCES=\
+						  plugins/casm-utilities-factor_group/main.cpp\
+
+_casmutils_symopinfo_LDADD=\
+						libcasmutils.la
