@@ -1,8 +1,6 @@
 bin_PROGRAMS += _casmutils-factor_group
 
 _casmutils_factor_group_SOURCES=\
-                          plugins/casm-utilities-factor-group/json_conv.hpp\
-                          plugins/casm-utilities-factor-group/json_conv.cpp\
 						  plugins/casm-utilities-factor-group/main.cpp
 _casmutils_factor_group_LDADD=\
 						libcasmutils.la
